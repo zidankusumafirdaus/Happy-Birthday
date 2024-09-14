@@ -554,14 +554,104 @@ video {
   --tw-contain-style:  ;
 }
 
-.text-9xl {
-  font-size: 8rem;
-  line-height: 1;
+.m-1 {
+  margin: 0.25rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+.m-5 {
+  margin: 1.25rem;
+}
+
+.m-10 {
+  margin: 2.5rem;
+}
+
+.-m-5 {
+  margin: -1.25rem;
+}
+
+.m-4 {
+  margin: 1rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mt-96 {
+  margin-top: 24rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mb-96 {
+  margin-bottom: 24rem;
+}
+
+.-mt-96 {
+  margin-top: -24rem;
+}
+
+.-mt-9 {
+  margin-top: -2.25rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.size-5 {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.size-80 {
+  width: 20rem;
+  height: 20rem;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.content-center {
+  align-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 245 247 / var(--tw-bg-opacity));
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-3xl {
@@ -569,7 +659,10 @@ video {
   line-height: 2.25rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
 }
