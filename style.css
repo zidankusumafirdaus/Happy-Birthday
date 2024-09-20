@@ -564,6 +564,10 @@ video {
   margin-right: auto;
 }
 
+.mb-7 {
+  margin-bottom: 1.75rem;
+}
+
 .flex {
   display: flex;
 }
@@ -624,13 +628,13 @@ video {
   text-align: justify;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
-.font-semibold {
-  font-weight: 600;
+.font-bold {
+  font-weight: 700;
 }
 
 .text-main {
