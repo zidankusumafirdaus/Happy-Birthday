@@ -6,22 +6,46 @@
     <link href="style.css" rel="stylesheet" />
   </head>
   <body class="bg-primary">
-    <main class="birth flex h-screen justify-center items-center">
-      <section class="birth">
-        <img src="birth-1.jpg" class="size-64 mx-auto" alt="" />
-        <p class="text-center mx-7 pt-4 text-main">
-          With or without medals and certificates. I'm still proud of you for
-          trying your best, for not giving up no matter how tired you are, you
-          did a great job.<br />
-          Congratulations. 🎉
-        </p>
-        <br />
-        <div class="button flex justify-center">
-          <button class="h-9 px-4 rounded-md bg-main text-neutral-50">
-            <a href="./index2.html">Next</a>
-          </button>
+    <audio id="song" src="audio/you.mp3"></audio>
+
+    <main>
+      <aside class="birthday flex h-screen justify-center items-center" id="birthday">
+        <div class="birth">
+          <img src="birth-1.jpg" class="size-64 mx-auto" alt="" />
+          <p class="text-center mx-7 pt-4 text-main">
+            With or without medals and certificates. I'm still proud of you for
+            trying your best, for not giving up no matter how tired you are, you
+            did a great job.<br />
+            Congratulations. 🎉
+          </p>
+          <br />
+          <div class="button flex justify-center">
+            <button class="h-9 px-4 rounded-md bg-main text-neutral-50">
+              <a href="" id="next">Next</a>
+            </button>
+          </div>
+        </div>
+      </aside>
+
+      <section class="beautiful hidden h-screen justify-center items-center" id="beautiful">
+        <div class="birth">
+          <h1 class="mx-auto mb-7 text-xl font-bold flex place-content-center text-main2">
+            HOW BEAUTIFUL WAS SHE?
+          </h1>
+          <img src="birth-2.jpg" class="size-64 mx-auto" alt="" />
+          <p class="text-justify mx-7 pt-4 text-main2">
+            She was beautiful, for the way she thought. She was beautiful, for the
+            sparkle in her eyes when she talked about something she loved. She was
+            beautiful, for her ability to make other people smile, even if she was
+            sad. No, she wasn't beautiful for something as temporary as her looks.
+            She was beautiful, deep down to her soul. She is beautiful.
+          </p>
+          <br />
+          </div>
         </div>
       </section>
     </main>
+
+    <script src="js/main.js"></script>
   </body>
 </html>
